@@ -37,3 +37,36 @@
       event.preventDefault();
     }
   });
+
+//   $(document).ready(function() {
+//     $('.following-btn, .follow-btn').click(function() {
+//         var followingBtn = $('.following-btn');
+//         var followBtn = $('.follow-btn');
+//   // Remove existing classes
+//   followingBtn.removeClass('following-btn');
+//   followBtn.removeClass('follow-btn');
+
+//         // Toggle classes
+//         followingBtn.toggleClass('follow-btn');
+//         followBtn.toggleClass('following-btn');
+
+//         // Toggle text
+//         followingBtn.text(followingBtn.hasClass('follow-btn') ? 'FOLLOW' : 'FOLLOWING');
+//         followBtn.text(followBtn.hasClass('following-btn') ? 'FOLLOWING' : 'FOLLOW');
+//     });
+// });
+$(document).ready(function() {
+    $('.following-btn, .follow-btn').click(function() {
+        var clickedBtn = $(this);
+
+        // Remove existing classes
+        clickedBtn.siblings().removeClass('following-btn').removeClass('follow-btn');
+
+        // Toggle classes
+        clickedBtn.toggleClass('following-btn').toggleClass('follow-btn');
+
+        // Toggle text
+        clickedBtn.text(clickedBtn.hasClass('following-btn') ? 'FOLLOW' : 'FOLLOWING');
+        clickedBtn.text(clickedBtn.hasClass('follow-btn') ? 'FOLLOW' : 'FOLLOWING');
+    });
+});
