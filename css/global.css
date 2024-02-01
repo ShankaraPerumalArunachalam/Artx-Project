@@ -548,7 +548,7 @@ footer.asign-sec p.copyright {
   line-height: 20px;
 }
 
-@media screen and (min-width: 1281) {
+@media screen and (min-width: 1281px) {
   section.featured-sec .card-content .col-md-4 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
