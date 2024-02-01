@@ -1,0 +1,39 @@
+footer{
+    &.asign-sec{
+        background-color: #1D1D1D;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin-top: 10px;
+
+        ul{
+            &.first-list{
+color:#fff;
+margin-right: 40px;
+
+li{
+    margin-bottom: 24px;
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+            }
+            &.second-list{
+color:#cccccc;
+li{
+    margin-bottom: 24px;
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+            }
+        }
+p{
+    &.copyright{
+        color: #cccccc;
+        text-align: start;
+        float: right;
+        line-height: 20px;
+    }
+}
+    }
+}
