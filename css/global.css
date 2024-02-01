@@ -169,6 +169,10 @@ a.follow-btn {
   border-radius: 30px;
   margin-left: 60px;
 }
+a.follow-btn:hover {
+  background-color: #303030;
+  color: #FFF;
+}
 
 section.secnd-sec {
   margin-top: 80px;
@@ -228,6 +232,11 @@ section.secnd-sec .card-content .card-body a.following-btn {
   font-size: 14px;
   border-radius: 30px;
   margin-left: 60px;
+}
+section.secnd-sec .card-content .card-body a.following-btn:hover {
+  color: #303030;
+  background-color: #FFF;
+  border: 1px solid #303030;
 }
 section.secnd-sec .card-content ul.images-art {
   display: -webkit-box;
@@ -374,6 +383,11 @@ section.featured-sec .card-content .card-body a.following-btn {
   font-size: 14px;
   border-radius: 30px;
   margin-left: 60px;
+}
+section.featured-sec .card-content .card-body a.following-btn:hover {
+  color: #303030;
+  background-color: #FFF;
+  border: 1px solid #303030;
 }
 section.featured-sec .card-content ul.images-art {
   display: -webkit-box;
@@ -534,6 +548,16 @@ footer.asign-sec p.copyright {
   line-height: 20px;
 }
 
+@media screen and (min-width: 1281) {
+  section.featured-sec .card-content .col-md-4 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   section.secnd-sec .card-content .card {
     width: 368px;
