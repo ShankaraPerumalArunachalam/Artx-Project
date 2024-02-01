@@ -105,7 +105,13 @@ a{
     border:1px solid #CFCFCF;
     font-size: 14px;
     border-radius: 30px;   
-margin-left: 60px;    }}
+margin-left: 60px;  
+
+&:hover{
+    background-color: #303030;
+    color :#FFF; 
+}
+}}
 section{
     &.secnd-sec{
         margin-top: 80px;
@@ -174,7 +180,14 @@ color:#696969;
                         color: #FFF;
                         font-size: 14px;
                         border-radius: 30px;   
-                    margin-left: 60px;    }
+                    margin-left: 60px;    
+
+                    &:hover{
+                        color: #303030;
+                        background-color: #FFF; 
+                        border: 1px solid #303030;
+                    }
+                }
 
                     
                 }
@@ -367,7 +380,13 @@ color:#696969;
                         color: #FFF;
                         font-size: 14px;
                         border-radius: 30px;   
-                    margin-left: 60px;    }
+                    margin-left: 60px; 
+                    &:hover{
+                        color: #303030;
+                        background-color: #FFF; 
+                        border: 1px solid #303030;
+                    }  
+                 }
                 }
             }
             ul{

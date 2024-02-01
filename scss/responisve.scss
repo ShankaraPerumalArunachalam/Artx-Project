@@ -1,3 +1,11 @@
+@media screen and (min-width:1281){
+    section.featured-sec .card-content .col-md-4{
+        justify-content: center;
+        display: flex;
+    }
+    
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1280px){
     section.secnd-sec .card-content .card {
         width:368px;
